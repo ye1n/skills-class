@@ -1,0 +1,618 @@
+                            * {
+                                padding: 0;
+                                margin: 0;
+                                text-decoration: none;
+                                font-style: none;
+                                border: none;
+                            }
+                            
+                            .sec2 a {
+                                font-size: 14px;
+                                color: #4d4d4dd7;
+                                position: absolute;
+                                right: 10%;
+                                top: 30%;
+                            }
+                            
+                            .sec3 a {
+                                font-size: 14px;
+                                color: #d6d6d6be;
+                                position: absolute;
+                                right: 10%;
+                                top: 23%;
+                            }
+                            
+                            .sec4 a {
+                                font-size: 14px;
+                                color: #4d4d4dbb;
+                                position: absolute;
+                                right: 10%;
+                                top: 20%;
+                            }
+                            
+                            header {
+                                width: 80%;
+                                left: 10%;
+                                position: relative;
+                                height: 80px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: space-between;
+                            }
+                            
+                            .logo .fa {
+                                font-size: 25px;
+                                margin: 0 5px 0 0;
+                            }
+                            
+                            menu {
+                                width: 60%;
+                                height: 100%;
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: center
+                            }
+                            
+                            menu a {
+                                color: black;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                            }
+                            
+                            .login {
+                                display: flex;
+                            }
+                            
+                            .login a {
+                                color: black;
+                            }
+                            
+                            .login p {
+                                margin: 0 5px 0 5px;
+                            }
+                            
+                            .sec1 {
+                                width: 100%;
+                                height: 800px;
+                                position: relative;
+                            }
+                            
+                            .centertxt {
+                                position: absolute;
+                                left: 20%;
+                                top: 18%;
+                                z-index: 1;
+                            }
+                            
+                            .centertxt p:nth-child(1) {
+                                font-size: 80px;
+                                color: #ffffff;
+                            }
+                            
+                            .centertxt p:nth-child(2) {
+                                font-size: 17px;
+                                color: #ffffffb4;
+                                font-weight: 200;
+                                margin-top: 20px;
+                                line-height: 1.5;
+                            }
+                            
+                            .sliderdesign {
+                                width: 100%;
+                                height: 100%;
+                            }
+                            
+                            #slider {
+                                top: 10%;
+                                left: 10%;
+                                width: 80%;
+                                height: 80%;
+                                overflow: hidden;
+                                position: relative;
+                            }
+                            
+                            .slider-panner {
+                                width: 300%;
+                                height: 100%;
+                                display: flex;
+                                justify-content: space-between;
+                                left: 0;
+                                position: absolute;
+                                transition: left .4s;
+                            }
+                            
+                            .slider-panner>img {
+                                width: calc(100%/3);
+                                height: 100%;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                            }
+                            
+                            .slider-btn {
+                                position: absolute;
+                                left: 15%;
+                                color: #ffffff;
+                            }
+                            
+                            .right-btn {
+                                margin-left: 70%;
+                            }
+                            
+                            .sec1back {
+                                z-index: -1;
+                                bottom: 0;
+                                position: absolute;
+                                width: 100%;
+                                height: 500px;
+                                background-color: rgb(79, 84, 88);
+                            }
+                            /* 섹션2 */
+                            
+                            .sec2 {
+                                width: 100%;
+                                height: 600px;
+                                position: relative;
+                            }
+                            
+                            .sec2txt {
+                                top: 5%;
+                                width: 100%;
+                                height: 45%;
+                                position: absolute;
+                                align-items: center;
+                                justify-content: center;
+                                text-align: center;
+                                display: flex;
+                                flex-direction: column;
+                            }
+                            
+                            .sec2txt p:nth-child(1) {
+                                color: #2c2c2c;
+                                font-size: 30px;
+                            }
+                            
+                            .sec2txt p:nth-child(2) {
+                                color: #a7a7a7c2;
+                                font-size: 15px;
+                                margin-top: 15px
+                            }
+                            
+                            .item-group {
+                                bottom: 0;
+                                width: 80%;
+                                left: 10%;
+                                height: 55%;
+                                position: absolute;
+                                display: flex;
+                                justify-content: space-between;
+                            }
+                            
+                            .item {
+                                width: 22%;
+                                height: 100%;
+                                position: relative;
+                                overflow: hidden;
+                            }
+                            
+                            .img-group img {
+                                width: 100%;
+                                height: 85%;
+                                transition: all .4s;
+                                position: absolute;
+                            }
+                            
+                            .txt-group {
+                                width: 100%;
+                                position: absolute;
+                                bottom: 0;
+                                display: flex;
+                                justify-content: space-between;
+                                color: #d4d0d0a9;
+                            }
+                            
+                            .img-group img:nth-child(1) {
+                                left: 0;
+                            }
+                            
+                            .img-group img:nth-child(2) {
+                                left: 100%;
+                            }
+                            
+                            .img-group:hover img:nth-child(2) {
+                                left: 0;
+                            }
+                            
+                            .sec2back {
+                                background-color: rgba(59, 59, 59, 0.842);
+                                width: 100%;
+                                height: 550px;
+                                position: absolute;
+                                bottom: -65%;
+                                z-index: -2;
+                            }
+                            /* 섹션3 */
+                            
+                            .sec3 {
+                                width: 100%;
+                                height: 800px;
+                                position: relative;
+                            }
+                            
+                            .sec3txt {
+                                top: 10%;
+                                width: 100%;
+                                height: 20%;
+                                position: absolute;
+                                align-items: center;
+                                justify-content: center;
+                                text-align: center;
+                                display: flex;
+                                flex-direction: column;
+                            }
+                            
+                            .sec3txt p:nth-child(1) {
+                                color: #f3f3f3;
+                                font-size: 30px;
+                            }
+                            
+                            .sec3txt p:nth-child(2) {
+                                color: #ccccccc2;
+                                font-size: 15px;
+                                margin-top: 15px
+                            }
+                            
+                            .leftbox {
+                                position: absolute;
+                                left: 10%;
+                                width: 39.5%;
+                                height: 55%;
+                                bottom: 10%;
+                            }
+                            
+                            .leftbox img {
+                                width: 100%;
+                                height: 100%;
+                            }
+                            
+                            .rightbox {
+                                bottom: 10%;
+                                position: absolute;
+                                right: 10%;
+                                width: 40%;
+                                height: 55%;
+                                display: grid;
+                                grid-template-columns: repeat(2, 1fr);
+                                grid-template-rows: repeat(2, 1fr);
+                                gap: 10px;
+                            }
+                            
+                            .box {
+                                perspective: 1000px;
+                                position: relative;
+                            }
+                            
+                            .box>* {
+                                width: 100%;
+                                height: 100%;
+                                backface-visibility: hidden;
+                                position: absolute;
+                                transition: all .4s;
+                            }
+                            
+                            .front img {
+                                width: 100%;
+                                height: 100%;
+                                object-fit: cover;
+                            }
+                            
+                            .back {
+                                transform: rotateY(-180deg);
+                                background-color: #fff;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                text-align: center;
+                            }
+                            
+                            .back button {
+                                padding: 5px 15px 5px 15px;
+                                margin-top: 20px;
+                                border-radius: 5px;
+                                color: rgb(51, 51, 51);
+                            }
+                            
+                            .back button:hover {
+                                transition: .4s;
+                                color: rgba(255, 255, 255, 0.863);
+                                background-color: rgb(79, 84, 88);
+                            }
+                            
+                            .box:hover .front {
+                                transform: rotateY(180deg);
+                            }
+                            
+                            .box:hover .back {
+                                transform: rotateY(0deg);
+                            }
+                            /* 섹션4 */
+                            
+                            .sec4 {
+                                width: 100%;
+                                height: 600px;
+                                position: relative;
+                            }
+                            
+                            .sec4txt {
+                                top: 5%;
+                                width: 100%;
+                                height: 20%;
+                                position: absolute;
+                                align-items: center;
+                                justify-content: center;
+                                text-align: center;
+                                display: flex;
+                                flex-direction: column;
+                            }
+                            
+                            .sec4txt p:nth-child(1) {
+                                color: #272727;
+                                font-size: 30px;
+                            }
+                            
+                            .sec4txt p:nth-child(2) {
+                                color: #9e9e9ec2;
+                                font-size: 15px;
+                                margin-top: 15px
+                            }
+                            
+                            .review {
+                                display: flex;
+                                width: 90%;
+                                height: 80%;
+                                position: absolute;
+                                bottom: 0;
+                                left: 5%;
+                            }
+                            
+                            .re {
+                                width: 50%;
+                                height: 100%;
+                                display: flex;
+                                position: relative;
+                            }
+                            
+                            .reback {
+                                top: 23%;
+                                left: 5%;
+                                position: absolute;
+                                z-index: -2;
+                                width: 40%;
+                                height: 45%;
+                                border: 10px solid rgb(116, 116, 116);
+                            }
+                            
+                            .re img {
+                                position: absolute;
+                                top: 30%;
+                                left: 10%;
+                                width: 45%;
+                                height: 50%;
+                            }
+                            
+                            .retxt {
+                                width: 250px;
+                                position: absolute;
+                                bottom: 27%;
+                                right: 5%;
+                                color: #4d4d4d;
+                                line-height: 1.5
+                            }
+                            
+                            .retxt span {
+                                font-size: 17px;
+                                color: #303030;
+                                font-weight: 600;
+                            }
+                            /* 푸터영역 */
+                            
+                            footer {
+                                width: 100%;
+                                height: 80px;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                background: rgb(79, 84, 88);
+                                color: #ffffffcb;
+                            }
+                            /* 메뉴 */
+                            
+                            .mo .fa {
+                                display: none;
+                            }
+                            
+                            .mo .menu {
+                                display: none;
+                            }
+                            
+                            @media (max-width: 480px) {
+                                body {
+                                    overflow-x: hidden;
+                                }
+                                menu {
+                                    display: none;
+                                }
+                                .mo .fa {
+                                    display: block;
+                                    position: fixed;
+                                    right: 15px;
+                                    top: 33px;
+                                    z-index: 100000000000;
+                                }
+                                .mo .fa:hover~.menu {
+                                    display: block;
+                                }
+                                .menu:hover {
+                                    display: block;
+                                }
+                                .menu {
+                                    position: fixed;
+                                    right: 0;
+                                    width: 100px;
+                                    height: 200px;
+                                    background-color: rgb(255, 255, 255);
+                                    border: 3px solid #e0e0e0;
+                                    z-index: 100000000000;
+                                }
+                                .menu a {
+                                    width: 100%;
+                                    height: 40px;
+                                    color: rgb(43, 43, 43);
+                                    text-align: center;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    font-size: 13px;
+                                }
+                                .sec1 {
+                                    height: 400px;
+                                }
+                                .sliderdesign {
+                                    height: 100%;
+                                }
+                                #slider {
+                                    height: 300px;
+                                }
+                                .sec1back {
+                                    height: 200px;
+                                }
+                                .centertxt p:nth-child(1) {
+                                    font-size: 30px;
+                                    font-weight: 600;
+                                }
+                                .centertxt p:nth-child(2) {
+                                    font-size: 11px;
+                                    left: -10%;
+                                }
+                                .right-btn {
+                                    margin-left: 65%;
+                                }
+                                .sec2 {
+                                    height: 400px;
+                                }
+                                .sec2txt {
+                                    height: 100px;
+                                }
+                                .sec2txt p:nth-child(1) {
+                                    font-size: 23px;
+                                }
+                                .sec2txt p:nth-child(2) {
+                                    font-size: 10px;
+                                }
+                                .item-group {
+                                    width: 90%;
+                                    left: 5%;
+                                    height: 200px;
+                                    bottom: 13%;
+                                }
+                                .sec2back {
+                                    height: 350px;
+                                    bottom: -50%;
+                                }
+                                .img-group img {
+                                    height: 70%;
+                                }
+                                .txt-group p:nth-child(1) {
+                                    font-size: 10px;
+                                }
+                                .txt-group {
+                                    flex-direction: column;
+                                }
+                                .sec3 {
+                                    height: 500px;
+                                }
+                                .sec3txt {
+                                    margin-top: -50px;
+                                    height: 100px;
+                                }
+                                .sec3txt p:nth-child(1) {
+                                    font-size: 23px;
+                                }
+                                .sec3txt p:nth-child(2) {
+                                    font-size: 10px;
+                                }
+                                .leftbox {
+                                    display: none;
+                                }
+                                .rightbox {
+                                    bottom: 15%;
+                                    width: 90%;
+                                    height: 300px;
+                                    right: 5%;
+                                }
+                                .sec4 {
+                                    height: 550px;
+                                }
+                                .sec4txt {
+                                    margin-top: -50px;
+                                    height: 100px;
+                                }
+                                .sec4txt p:nth-child(1) {
+                                    font-size: 23px;
+                                }
+                                .sec4txt p:nth-child(2) {
+                                    font-size: 10px;
+                                }
+                                .review {
+                                    flex-direction: column;
+                                }
+                                .re {
+                                    width: 100%;
+                                    height: 50%;
+                                }
+                                .retxt {
+                                    width: 150px;
+                                    position: absolute;
+                                    bottom: 27%;
+                                    right: 5%;
+                                    color: #4d4d4d;
+                                    line-height: 1.5;
+                                    font-size: 12px;
+                                }
+                                .retxt span {
+                                    font-size: 13px;
+                                    font-weight: 600;
+                                }
+                                .re img {
+                                    width: 50%;
+                                    height: 70%;
+                                    left: 5%;
+                                    top: 10%;
+                                }
+                                .re .reback {
+                                    left: -0;
+                                    width: 45%;
+                                    height: 60%;
+                                    top: 0%;
+                                }
+                                footer p {
+                                    font-size: 13px;
+                                }
+                                .sec2 a {
+                                    font-size: 12px;
+                                    right: 5%;
+                                    top: 10%;
+                                }
+                                .sec3 a {
+                                    font-size: 12px;
+                                    right: 5%;
+                                    top: 5%;
+                                }
+                                .sec4 a {
+                                    font-size: 12px;
+                                    right: 5%;
+                                    top: 0%;
+                                }
+                            }
