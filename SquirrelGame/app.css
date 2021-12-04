@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.container {
+    position: relative;
+    width: 600px;
+    height: 460px;
+}
+
+#myCanvas {
+    border: 1px solid rgb(228, 206, 168);
+    margin-top: 50px;
+}
+
+.msgBox1 {
+    border: 1px solid rgb(228, 206, 168);
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(114, 102, 96);
+}
+
+.msgBox2 {
+    border: 1px solid rgb(228, 206, 168);
+    width: 230px;
+    height: 355px;
+    position: absolute;
+    top: 50px;
+    left: 405px;
+    color: rgb(134, 105, 88);
+}
+
+.msgBox2 p {
+    color: rgb(172, 146, 129);
+}
+
+.msg2 {
+    margin: 10px 0px 0px 10px;
+    line-height: 2;
+}
+
+.stage {
+    font-size: 30px;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    color: rgb(194, 173, 138);
+}
+
+.end {
+    font-size: 52px;
+    font-weight: 600;
+    position: absolute;
+    top: 160px;
+    left: 50px;
+}
+
+.dadada {
+    position: absolute;
+    width: 160px;
+    height: 100px;
+    right: 10px;
+    bottom: 10px;
+}
